@@ -1,6 +1,7 @@
 # Target Gene Predictions of CRMs Revels Their Functional Types 
-## The training datasets for predicting funcitonal states of CRMs
-   - TrainData.zip
+## The training datasets for predicting funcitonal states of CRMs (file size too big, split into two smaller files)
+   - TrainData_1.zip
+   - TrainData_2.zip 
 
 ## The code and models for training, evaluation, and testing:
    - Train_evaluate_model.py

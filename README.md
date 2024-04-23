@@ -1,22 +1,21 @@
-# Simultaneous Prediction of Functional States and Types of cis-regulatory Modules Reveals Their Prevalent Dual Uses as Enhancers and Silencers
-## The training datasets for predicting funcitonal states of enhancers and silencers
-   - All-Enhancer-Features-Part1.zip (We split the training dataset into 3 parts for upload.)
-   - All-Enhancer-Features-Part2.zip
-   - All-Enhancer-Features-Part3.zip
-   - All-Silencer-Features.zip
+# Target Gene Predictions of CRMs Revels Their Functional Types 
+## The training datasets for predicting funcitonal states of CRMs
+   - TrainData.zip
 
 ## The code and models for training, evaluation, and testing:
-   - Enhancers:
-     - Train_evaluate_model_enhancer.py
-     - Model trained with logistic regression: LogisticRegression-CA-H3K27ac-H3K4me1.joblib
-   - Silencers
-     - Train_evaluate_model_silencer.py
-     - Model trained with logistic regression: LogisticRegression-CA-H3K9me3-H3K27me3.joblib
+   - Train_evaluate_model.py
+   - LogisticRegression-CA.joblib
 
-## The code for predicting active enhancers and silencers in the whole genome:
-   - Predict_Enhancer.py
-   - Predict_Silencer.py
+## The code for predicting active CRM in the whole genome:
+   - Predict-ENCODE.py
 
-## Predicted active enhancers and silencers examples in K562 cells
-   - human-Enhancers-K562.CRM.minmaxLogisticRegression.predict.zip
-   - human-Silencers-K562.CRM.minmaxLogisticRegression.predict.zip
+## Predicted active CRM in the heart-right-ventricle cells
+   - human-donorsENCDO967KID-heart-right-ventricle.CRM.minmax.zip
+   - human-donorsENCDO967KID-heart-right-ventricle.CRM.minmaxLogisticRegression.predict.zip
+
+## Mann whitney U test:
+   - MWU-test.py
+
+## Predictions of Regulations
+   - up regulaitons: Enhancer_Hic_Validated_Regulations_2000.uniq.bed.zip
+   - down regulations: Silencer_Hic_Validated_Regulations_2000.uniq.bed.zip

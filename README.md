@@ -19,5 +19,5 @@
 
 ## Predictions of Regulations
    columns: CRM(chr-start-end) Gene(chr-start-end) q-value
-   - up regulaitons: Enhancer_Hic_Validated_Regulations_2000.uniq.bed.zip
-   - down regulations: Silencer_Hic_Validated_Regulations_2000.uniq.bed.zip
+   - up regulaitons: Enhancer_Hic_Validated_Regulations_2000.uniq.HiC20.bed.zip
+   - down regulations: Silencer_Hic_Validated_Regulations_2000.uniq.HiC20.bed.zip
